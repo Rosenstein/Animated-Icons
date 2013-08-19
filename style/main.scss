@@ -37,12 +37,12 @@ body {
   margin-left: -100px;
 }
 .first.loading-panel .icon-wrapper {
-  animation:
+  animation: 
     fade $duration linear infinite,
     slide-in-bottom $duration ease-out infinite;
 }
 .second.loading-panel .icon-wrapper {
-  animation:
+  animation: 
     fade $duration linear infinite,
     slide-in-top $duration ease-out infinite;
 }
@@ -57,14 +57,14 @@ body {
 .first.loading-panel .icon-wrapper:before {
   top: -5%;
   left: -5%;
-  animation:
+  animation: 
     late-fade $duration linear infinite,
     circulate-clockwise ($duration / 10) linear infinite;
 }
 .second.loading-panel .icon-wrapper:before {
   bottom: -5%;
   right: -5%;
-  animation:
+  animation: 
     late-fade $duration linear infinite,
     circulate-counterclockwise ($duration / 10) linear infinite;
 }
